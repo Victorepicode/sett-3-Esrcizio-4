@@ -1,19 +1,21 @@
-const tabella = document.getElementById("tabella");
+const RandomNumber=(min,max) => Math.cell(math.random()* 76);
+
+
+const tabelloneDaCreare=() =>{
+    const tabella = document.getElementById("tabella");
 
 for (let i = 0; i < 77; i++) {
-  document.createElement("tabella");
-  const tabella = [i];
-  console.log(tabella);
+    const cella = document.createElement("div")
+    cella.textContent = i
+    cella.classList.add("cella");
+    tabella.appendChild("cella");
+ 
+}
+}
+/*function tabella{
+
 }
 
-/*
-$(function valori() {
-  let allNumber = [];
-  let numeriSelezionati = [];
 
-  for (let i = 0; i < 76; i++) {
-    $("#tabella").append(`<span class="extract-number"> ${i} </span>`);
-    allNumber.push(i);
-  }
-});
-*/
+
+
